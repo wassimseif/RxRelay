@@ -10,6 +10,10 @@
 		CFE091461EB368C900E9FDAD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE0913C1EB368C900E9FDAD /* RxRelay.framework */; };
 		CFE0914B1EB368C900E9FDAD /* RxRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0914A1EB368C900E9FDAD /* RxRelayTests.swift */; };
 		CFE0914D1EB368C900E9FDAD /* RxRelay.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE0913F1EB368C900E9FDAD /* RxRelay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE091591EB368F000E9FDAD /* BehavoirRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE091561EB368F000E9FDAD /* BehavoirRelay.swift */; };
+		CFE0915A1EB368F000E9FDAD /* PublishRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE091571EB368F000E9FDAD /* PublishRelay.swift */; };
+		CFE0915B1EB368F000E9FDAD /* ReplayRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE091581EB368F000E9FDAD /* ReplayRelay.swift */; };
+		CFE0915D1EB3691500E9FDAD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CFE0915C1EB3691500E9FDAD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		CFE091451EB368C900E9FDAD /* RxRelayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxRelayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE0914A1EB368C900E9FDAD /* RxRelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRelayTests.swift; sourceTree = "<group>"; };
 		CFE0914C1EB368C900E9FDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE091561EB368F000E9FDAD /* BehavoirRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehavoirRelay.swift; sourceTree = "<group>"; };
+		CFE091571EB368F000E9FDAD /* PublishRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishRelay.swift; sourceTree = "<group>"; };
+		CFE091581EB368F000E9FDAD /* ReplayRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplayRelay.swift; sourceTree = "<group>"; };
+		CFE0915C1EB3691500E9FDAD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 		CFE091321EB368C900E9FDAD = {
 			isa = PBXGroup;
 			children = (
+				CFE0915C1EB3691500E9FDAD /* README.md */,
 				CFE0913E1EB368C900E9FDAD /* RxRelay */,
 				CFE091491EB368C900E9FDAD /* RxRelayTests */,
 				CFE0913D1EB368C900E9FDAD /* Products */,
@@ -71,6 +80,9 @@
 		CFE0913E1EB368C900E9FDAD /* RxRelay */ = {
 			isa = PBXGroup;
 			children = (
+				CFE091561EB368F000E9FDAD /* BehavoirRelay.swift */,
+				CFE091571EB368F000E9FDAD /* PublishRelay.swift */,
+				CFE091581EB368F000E9FDAD /* ReplayRelay.swift */,
 				CFE0913F1EB368C900E9FDAD /* RxRelay.h */,
 				CFE091401EB368C900E9FDAD /* Info.plist */,
 			);
@@ -149,6 +161,7 @@
 					CFE0913B1EB368C900E9FDAD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4LQ43Y6TLH;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					CFE091441EB368C900E9FDAD = {
@@ -198,6 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE0915B1EB368F000E9FDAD /* ReplayRelay.swift in Sources */,
+				CFE091591EB368F000E9FDAD /* BehavoirRelay.swift in Sources */,
+				CFE0915D1EB3691500E9FDAD /* README.md in Sources */,
+				CFE0915A1EB368F000E9FDAD /* PublishRelay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +339,7 @@
 		CFE091511EB368C900E9FDAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
@@ -334,6 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wassimseifeddine.RxRelay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +360,7 @@
 		CFE091521EB368C900E9FDAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
@@ -360,6 +380,7 @@
 		CFE091541EB368C900E9FDAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
 				INFOPLIST_FILE = RxRelayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +393,7 @@
 		CFE091551EB368C900E9FDAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
 				INFOPLIST_FILE = RxRelayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
