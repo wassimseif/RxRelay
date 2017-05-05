@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44C23F747EB0CED91318A8EF4A4B6FB6BD82EFB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44C23F747EB0CED91318A8EF4A4B6FB6BD82EFB7" : 9223372036854775807,
+    "7070CB37869A83BE1D332C7EE7D9D5A6A7F80E76" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5FA56273-9291-4F9F-8DFE-1F0FFF6BCD9C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44C23F747EB0CED91318A8EF4A4B6FB6BD82EFB7" : "RxRelay\/",
+    "7070CB37869A83BE1D332C7EE7D9D5A6A7F80E76" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RxRelay",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RxRelay.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wassimseif\/RxRelay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44C23F747EB0CED91318A8EF4A4B6FB6BD82EFB7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wassimseif\/Tech-Stack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7070CB37869A83BE1D332C7EE7D9D5A6A7F80E76"
+    }
+  ]
+}
