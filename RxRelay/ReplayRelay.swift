@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-final class ReplayRelay<T>: ObservableConvertibleType {
+public final class ReplayRelay<T>: ObservableConvertibleType {
     
     private let subject : ReplaySubject<T>
     
@@ -27,7 +27,7 @@ final class ReplayRelay<T>: ObservableConvertibleType {
         subject.onNext(element)
     }
     
-    func asObservable() -> Observable<T> {
+    public func asObservable() -> Observable<T> {
         return subject.asObservable()
     }
 }

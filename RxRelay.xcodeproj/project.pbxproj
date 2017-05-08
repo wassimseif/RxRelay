@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF4C0DD11EBC5FFA00B3FA22 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4C0DCD1EBC5FFA00B3FA22 /* RxBlocking.framework */; };
 		CF4C0DD21EBC5FFA00B3FA22 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4C0DCE1EBC5FFA00B3FA22 /* RxCocoa.framework */; };
 		CF4C0DD31EBC5FFA00B3FA22 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4C0DCF1EBC5FFA00B3FA22 /* RxSwift.framework */; };
-		CF4C0DD41EBC5FFA00B3FA22 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4C0DD01EBC5FFA00B3FA22 /* RxTest.framework */; };
 		CFE091461EB368C900E9FDAD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE0913C1EB368C900E9FDAD /* RxRelay.framework */; };
 		CFE0914B1EB368C900E9FDAD /* RxRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0914A1EB368C900E9FDAD /* RxRelayTests.swift */; };
 		CFE0914D1EB368C900E9FDAD /* RxRelay.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE0913F1EB368C900E9FDAD /* RxRelay.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,8 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4C0DD21EBC5FFA00B3FA22 /* RxCocoa.framework in Frameworks */,
-				CF4C0DD11EBC5FFA00B3FA22 /* RxBlocking.framework in Frameworks */,
-				CF4C0DD41EBC5FFA00B3FA22 /* RxTest.framework in Frameworks */,
 				CF4C0DD31EBC5FFA00B3FA22 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

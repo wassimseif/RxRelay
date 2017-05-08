@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-final class PublishRelay<T>: ObservableConvertibleType {
+public final class PublishRelay<T>: ObservableConvertibleType {
     
     private let subject : PublishSubject<T>
     
@@ -18,15 +18,15 @@ final class PublishRelay<T>: ObservableConvertibleType {
         subject = PublishSubject<T>()
     }
     
-    func subsribe(On on :  ((T) -> Void)?  ){
-       _ =  subject.asObservable().subscribe(onNext: on)
+    func subsribe(On on :  ((T) -> Void)?) ->Disposable{
+       return  subject.asObservable().subscribe(onNext: on)
     }
     
     func accept(_ element: T) {
         subject.onNext(element)
     }
     
-    func asObservable() -> Observable<T> {
+    public func asObservable() -> Observable<T> {
         return subject.asObservable()
     }
 }

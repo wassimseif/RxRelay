@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-final class BehavoirRelay<T>: ObservableConvertibleType {
+public final class BehavoirRelay<T>: ObservableConvertibleType {
     
     private let subject : BehaviorSubject<T>
     
@@ -27,7 +27,7 @@ final class BehavoirRelay<T>: ObservableConvertibleType {
         subject.onNext(element)
     }
     
-    func asObservable() -> Observable<T> {
+   public  func asObservable() -> Observable<T> {
         return subject.asObservable()
     }
 }
