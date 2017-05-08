@@ -16,7 +16,18 @@ Because the [Observer](https://en.wikipedia.org/wiki/Observer_pattern) Design pa
 
     Relay that, once an `Observer` has subscribed, emits all subsequently observed items to the
     subscriber.
-
+```
+     var relay = PublishRelay<String>()
+        
+        let subscription = relay.subsribe { (string ) in
+            print("I have Received :\(string)")
+        }
+        
+        relay.accept("Hello")
+        relay.accept("World")
+        subscription.dispose()
+        relay.accept("Will not be printed by subscription ")
+```
 
  *  **`ReplayRelay`**
 
