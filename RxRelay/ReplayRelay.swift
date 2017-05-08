@@ -15,15 +15,15 @@ public final class ReplayRelay<T>: ObservableConvertibleType {
     private let subject : ReplaySubject<T>
     
     
-    init(withBufferSize bfsize: Int){
+    public init(withBufferSize bfsize: Int){
         subject = ReplaySubject<T>.create(bufferSize: bfsize)
     }
     
-    func subsribe(On on :  ((T) -> Void)?  ){
+    public func subsribe(On on :  ((T) -> Void)?  ){
         _ =  subject.asObservable().subscribe(onNext: on)
     }
     
-    func accept(_ element: T) {
+    public func accept(_ element: T) {
         subject.onNext(element)
     }
     

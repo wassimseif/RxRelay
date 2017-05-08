@@ -15,15 +15,15 @@ public final class BehavoirRelay<T>: ObservableConvertibleType {
     private let subject : BehaviorSubject<T>
     
     
-    init(defaultValue defaultvalue : T){
+    public init(defaultValue defaultvalue : T){
         subject = BehaviorSubject<T>(value: defaultvalue)
     }
     
-    func subsribe(On on :  ((T) -> Void)?  ){
+    public func subsribe(On on :  ((T) -> Void)?  ){
         _ =  subject.asObservable().subscribe(onNext: on)
     }
     
-    func accept(_ element: T) {
+    public func accept(_ element: T) {
         subject.onNext(element)
     }
     
