@@ -19,8 +19,8 @@ public final class ReplayRelay<T>: ObservableConvertibleType {
         subject = ReplaySubject<T>.create(bufferSize: bfsize)
     }
     
-    public func subsribe(On on :  ((T) -> Void)?  ){
-        _ =  subject.asObservable().subscribe(onNext: on)
+    public func subsribe(On on :  ((T) -> Void)?  ) -> Disposable{
+        return subject.asObservable().subscribe(onNext: on)
     }
     
     public func accept(_ element: T) {

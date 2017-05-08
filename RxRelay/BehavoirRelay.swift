@@ -19,8 +19,8 @@ public final class BehavoirRelay<T>: ObservableConvertibleType {
         subject = BehaviorSubject<T>(value: defaultvalue)
     }
     
-    public func subsribe(On on :  ((T) -> Void)?  ){
-        _ =  subject.asObservable().subscribe(onNext: on)
+    public func subsribe(On on :  ((T) -> Void)?  ) -> Disposable{
+        return subject.asObservable().subscribe(onNext: on)
     }
     
     public func accept(_ element: T) {
