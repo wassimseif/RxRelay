@@ -33,14 +33,13 @@ Because the [Observer](https://en.wikipedia.org/wiki/Observer_pattern) Design pa
 
     Relay that buffers all items it observes and replays them to any `Observer` that subscribes.
     ```
-    
-        let relay = ReplayRelay<String>(withBufferSize: 2)
-        relay.accept("1")
-        relay.accept("2")
-        relay.accept("3")
-        let subscription = relay.subsribe { (string) in
-            print("I have received : \(string)")
-        }
-        // subscription will get 2 , 3 , 4
-        relay.accept("4")
-   ```
+	let relay = ReplayRelay<String>(withBufferSize: 2)
+	relay.accept("1")
+	relay.accept("2")
+	relay.accept("3")
+	let subscription = relay.subsribe { (string) in
+		print("I have received : \(string)")
+    }
+	// subscription will get 2 , 3 , 4
+	relay.accept("4")
+	```
