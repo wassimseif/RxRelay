@@ -14,6 +14,10 @@ class RxRelayTests: XCTestCase {
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+    }
+    
+    func testPublishRelay(){
         var relay = PublishRelay<String>()
         
         let subscription = relay.subsribe { (string ) in
@@ -26,6 +30,18 @@ class RxRelayTests: XCTestCase {
         relay.accept("Will not be emitted ")
     }
     
+    func testReplayRelay(){
+        let relay = ReplayRelay<String>(withBufferSize: 2)
+        relay.accept("1")
+        relay.accept("2")
+        relay.accept("3")
+        let subscription = relay.subsribe { (string) in
+            print("I have received : \(string)")
+        }
+        // subscription will get 2 , 3 , 4
+        relay.accept("4")
+
+    }
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
