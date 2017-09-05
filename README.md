@@ -3,7 +3,11 @@
 This is my attempt to create an [RxRelay](https://github.com/JakeWharton/RxRelay) implementation in [RxSwift](https://github.com/ReactiveX/RxSwift).
 ### Why 
 Because the [Observer](https://en.wikipedia.org/wiki/Observer_pattern) Design pattern is something every developer should know. It facilitates the communication between objects and simplify the logic of your app. Implementing it in a Reactive way will take it to a whole new level.
+### Installation 
+Currently the recommended installation method is [Cocoapods](https://cocoapods.org/)
 
+- In your `Podfile`
+	- Add this `pod 'RxRelay'`
 ### Usage 
 
 
