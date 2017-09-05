@@ -8,7 +8,7 @@
 
 import Foundation
 import RxSwift
-import RxCocoa
+
 
 public final class ReplayRelay<T>: ObservableConvertibleType {
     

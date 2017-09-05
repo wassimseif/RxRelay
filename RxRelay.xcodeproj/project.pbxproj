@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF4C0DD21EBC5FFA00B3FA22 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4C0DCE1EBC5FFA00B3FA22 /* RxCocoa.framework */; };
-		CF4C0DD31EBC5FFA00B3FA22 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4C0DCF1EBC5FFA00B3FA22 /* RxSwift.framework */; };
+		8430D15BC3691444869E4B7F /* Pods_RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC53560B46A01977A583561 /* Pods_RxRelay.framework */; };
+		AECE859CD22E5AF6CEF9B6D9 /* Pods_RxRelayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B56D5FEF0D80D51F48474AD /* Pods_RxRelayTests.framework */; };
 		CFE091461EB368C900E9FDAD /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE0913C1EB368C900E9FDAD /* RxRelay.framework */; };
 		CFE0914B1EB368C900E9FDAD /* RxRelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0914A1EB368C900E9FDAD /* RxRelayTests.swift */; };
 		CFE0914D1EB368C900E9FDAD /* RxRelay.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE0913F1EB368C900E9FDAD /* RxRelay.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF4C0DCD1EBC5FFA00B3FA22 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = SOURCE_ROOT; };
-		CF4C0DCE1EBC5FFA00B3FA22 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
-		CF4C0DCF1EBC5FFA00B3FA22 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
-		CF4C0DD01EBC5FFA00B3FA22 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = SOURCE_ROOT; };
+		00BBB594F9C2C899C61A0B10 /* Pods-RxRelay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelay.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelay/Pods-RxRelay.release.xcconfig"; sourceTree = "<group>"; };
+		1B56D5FEF0D80D51F48474AD /* Pods_RxRelayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxRelayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F789E4D16D4AAB032F15152 /* Pods-RxRelayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelayTests/Pods-RxRelayTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCC53560B46A01977A583561 /* Pods_RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE0913C1EB368C900E9FDAD /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE0913F1EB368C900E9FDAD /* RxRelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxRelay.h; sourceTree = "<group>"; };
 		CFE091401EB368C900E9FDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +43,8 @@
 		CFE091571EB368F000E9FDAD /* PublishRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishRelay.swift; sourceTree = "<group>"; };
 		CFE091581EB368F000E9FDAD /* ReplayRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplayRelay.swift; sourceTree = "<group>"; };
 		CFE0915C1EB3691500E9FDAD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F669DE964D1128AFE5D77D13 /* Pods-RxRelay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelay/Pods-RxRelay.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3F64CC4EBE0A6F2EA73D4F /* Pods-RxRelayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRelayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxRelayTests/Pods-RxRelayTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4C0DD21EBC5FFA00B3FA22 /* RxCocoa.framework in Frameworks */,
-				CF4C0DD31EBC5FFA00B3FA22 /* RxSwift.framework in Frameworks */,
+				8430D15BC3691444869E4B7F /* Pods_RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +61,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE091461EB368C900E9FDAD /* RxRelay.framework in Frameworks */,
+				AECE859CD22E5AF6CEF9B6D9 /* Pods_RxRelayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6496E4BCE7E9630B3223CEDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F669DE964D1128AFE5D77D13 /* Pods-RxRelay.debug.xcconfig */,
+				00BBB594F9C2C899C61A0B10 /* Pods-RxRelay.release.xcconfig */,
+				FA3F64CC4EBE0A6F2EA73D4F /* Pods-RxRelayTests.debug.xcconfig */,
+				6F789E4D16D4AAB032F15152 /* Pods-RxRelayTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE6D92A6EFC6FD2CBE7C2AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC53560B46A01977A583561 /* Pods_RxRelay.framework */,
+				1B56D5FEF0D80D51F48474AD /* Pods_RxRelayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFE091321EB368C900E9FDAD = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +95,8 @@
 				CFE0913E1EB368C900E9FDAD /* RxRelay */,
 				CFE091491EB368C900E9FDAD /* RxRelayTests */,
 				CFE0913D1EB368C900E9FDAD /* Products */,
+				6496E4BCE7E9630B3223CEDF /* Pods */,
+				AE6D92A6EFC6FD2CBE7C2AA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,10 +112,6 @@
 		CFE0913E1EB368C900E9FDAD /* RxRelay */ = {
 			isa = PBXGroup;
 			children = (
-				CF4C0DCD1EBC5FFA00B3FA22 /* RxBlocking.framework */,
-				CF4C0DCE1EBC5FFA00B3FA22 /* RxCocoa.framework */,
-				CF4C0DCF1EBC5FFA00B3FA22 /* RxSwift.framework */,
-				CF4C0DD01EBC5FFA00B3FA22 /* RxTest.framework */,
 				CFE091561EB368F000E9FDAD /* BehavoirRelay.swift */,
 				CFE091571EB368F000E9FDAD /* PublishRelay.swift */,
 				CFE091581EB368F000E9FDAD /* ReplayRelay.swift */,
@@ -128,10 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFE091501EB368C900E9FDAD /* Build configuration list for PBXNativeTarget "RxRelay" */;
 			buildPhases = (
+				311BBB2B3C6B3B89BE63B836 /* [CP] Check Pods Manifest.lock */,
 				CFE091371EB368C900E9FDAD /* Sources */,
 				CFE091381EB368C900E9FDAD /* Frameworks */,
 				CFE091391EB368C900E9FDAD /* Headers */,
 				CFE0913A1EB368C900E9FDAD /* Resources */,
+				9F0144263C645F2BBB283CC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFE091531EB368C900E9FDAD /* Build configuration list for PBXNativeTarget "RxRelayTests" */;
 			buildPhases = (
+				812F6F7E11639F437F06E5C2 /* [CP] Check Pods Manifest.lock */,
 				CFE091411EB368C900E9FDAD /* Sources */,
 				CFE091421EB368C900E9FDAD /* Frameworks */,
 				CFE091431EB368C900E9FDAD /* Resources */,
+				07057FA1054C8D01B0D69567 /* [CP] Embed Pods Frameworks */,
+				45CE9847BECB279B558E0ED1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +242,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07057FA1054C8D01B0D69567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxRelayTests/Pods-RxRelayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		311BBB2B3C6B3B89BE63B836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45CE9847BECB279B558E0ED1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxRelayTests/Pods-RxRelayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		812F6F7E11639F437F06E5C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F0144263C645F2BBB283CC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxRelay/Pods-RxRelay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFE091371EB368C900E9FDAD /* Sources */ = {
@@ -350,6 +453,7 @@
 		};
 		CFE091511EB368C900E9FDAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F669DE964D1128AFE5D77D13 /* Pods-RxRelay.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -376,6 +480,7 @@
 		};
 		CFE091521EB368C900E9FDAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BBB594F9C2C899C61A0B10 /* Pods-RxRelay.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -401,6 +506,7 @@
 		};
 		CFE091541EB368C900E9FDAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3F64CC4EBE0A6F2EA73D4F /* Pods-RxRelayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;
@@ -414,6 +520,7 @@
 		};
 		CFE091551EB368C900E9FDAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F789E4D16D4AAB032F15152 /* Pods-RxRelayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4LQ43Y6TLH;

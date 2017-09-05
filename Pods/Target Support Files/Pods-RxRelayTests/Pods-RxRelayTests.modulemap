@@ -1,0 +1,6 @@
+framework module Pods_RxRelayTests {
+  umbrella header "Pods-RxRelayTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

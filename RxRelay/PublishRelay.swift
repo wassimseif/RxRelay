@@ -8,7 +8,6 @@
 
 import Foundation
 import RxSwift
-import RxCocoa
 
 public final class PublishRelay<T>: ObservableConvertibleType {
     
